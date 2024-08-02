@@ -1,0 +1,12 @@
+{
+    "watch": [
+        "server.js",
+        "init_db.js",
+        "routes/*.js"
+    ],
+    "ext": "js",
+    "ignore": [
+        "node_modules"
+    ],
+    "exec": "node server.js"
+}
